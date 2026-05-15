@@ -118,7 +118,7 @@ export function PreviewFrame() {
                 />
               </svg>
             </div>
-            <h3 className="text-lg font-semibold text-gray-900 mb-2">
+            <h3 className="text-lg font-semibold text-blue-600 mb-2">
               Welcome to UI Generator
             </h3>
             <p className="text-sm text-gray-600 mb-3">
@@ -138,7 +138,7 @@ export function PreviewFrame() {
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gray-100 mb-4">
             <AlertCircle className="h-8 w-8 text-gray-400" />
           </div>
-          <h3 className="text-lg font-semibold text-gray-900 mb-2">
+          <h3 className="text-lg font-semibold text-blue-600 mb-2">
             No Preview Available
           </h3>
           <p className="text-sm text-gray-500">{error}</p>
